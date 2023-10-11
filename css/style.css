@@ -1,12 +1,15 @@
 /* Your unique CSS styles */
+body, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 body {
  font-family: 'Open Sans', sans-serif;
-  background-color:#FAA0A0;
-    margin-bottom: 2rem; 
+  background-color:#A00000  ;
 }
 
 header {
-  background-color: #AA0000;
+  background-color: 		#500000  ;
   color: #fff;
   text-align: center;
   font-size: 2.0rem;
@@ -22,14 +25,20 @@ main {
   margin: 0 auto;
   padding: 2rem;
 }
-
+.two-column-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem; /* Adjust the gap between the two sections as needed */
+   margin: 0 -20rem;
+}
 .website-info {
-  background-color: #FFA07A;
+  background-color: #FBCEB1 ;
   border-radius: 5px;
   padding: 3rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem; 
-  
+   flex: 13;
 }
 
 .join-info {
@@ -38,19 +47,30 @@ main {
   padding: 3rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem; 
-  
+   flex: 13;
 }
 
 .signup-form {
-  background-color: #fff;
+  background-color: #FBCEB1;
   border-radius: 5px;
   padding: 5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 1.5rem; 
+  margin-top: 1.5rem; 
   
 }
 
-h2 {
+.signup-form input#interest {
+  width: 75%; /* Make the input box full width within its container */
+  height: 150px; /* Increase the height as needed to make it bigger */
+  padding: 2rem; /* Add padding for better styling and readability */
+  resize: none; /* Prevent users from resizing the textarea */
+}
+.signup-form select {
+  margin-bottom: 1rem; /* You can adjust the margin as needed */
+  font-size: 1.5rem;
+}
+h1, h2 {
   color: #333;
   margin-bottom: 2rem;
   font-size: 1.5em;
@@ -69,7 +89,7 @@ input {
 }
 
 button.center-button {
-  background-color: #333;
+  background-color: #500000;
   color: #fff;
   border: none;
     font-family: 'Open Sans', sans-serif; 
@@ -87,7 +107,7 @@ button.center-button:hover {
 footer {
    text-align: center;
   padding: 2rem; /* Increase the padding to make the footer bigger */
-  background-color: #333;
+  background-color: #500000 ;
   color: #fff;
   font-size: 1rem; 
   
