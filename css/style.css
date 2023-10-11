@@ -2,18 +2,18 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
-   margin-bottom: 2rem;
+    margin-bottom: 2rem; 
 }
 
 header {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 1rem;
+  font-size: 2.5rem;
+  padding: 2rem;
 }
 
 main {
-	flex: 1;
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
@@ -22,9 +22,10 @@ main {
 .signup-form {
   background-color: #fff;
   border-radius: 5px;
-  padding: 1.5rem;
+  padding: 5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem; 
+  
 }
 
 h2 {
@@ -34,32 +35,36 @@ h2 {
 
 label {
   display: block;
-  margin-bottom: 0.5rem;
+   margin-bottom: 0.5rem; 
 }
 
 input {
-  width: 100%;
+  width: 75%;
   padding: 0.5rem;
-  margin-bottom: 1rem;
+   margin-bottom: 2rem; 
 }
 
-button {
+button.center-button {
   background-color: #333;
   color: #fff;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 2rem 3rem;
   cursor: pointer;
+  margin: 1rem auto 0; /* Increase the bottom margin to move the button down */
+  display: block; /* Ensure the button takes the full width of the parent container */
 }
 
-button:hover {
+button.center-button:hover {
   background-color: #555;
 }
 
 footer {
-     background-color: #333;
-    color: #fff;
-    text-align: center;
-   padding: 2rem; /* Increase the padding to make the footer bigger */
+   text-align: center;
+  padding: 2rem; /* Increase the padding to make the footer bigger */
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem; 
+   margin-top: 10rem;
 }
 /* Mobile-First Styles */
 
@@ -69,7 +74,7 @@ footer {
     padding: 4rem;
   }
   .signup-form {
-    padding: 2.5rem;
+    padding: 3rem;
   }
 }
 
