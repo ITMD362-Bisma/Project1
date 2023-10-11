@@ -1,22 +1,44 @@
 /* Your unique CSS styles */
 body {
  font-family: 'Open Sans', sans-serif;
-  background-color: #f2f2f2;
+  background-color:#FAA0A0;
     margin-bottom: 2rem; 
 }
 
 header {
-  background-color: #333;
+  background-color: #AA0000;
   color: #fff;
   text-align: center;
   font-size: 2.0rem;
   padding: 2rem;
+}
+p {
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
 main {
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.website-info {
+  background-color: #FFA07A;
+  border-radius: 5px;
+  padding: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem; 
+  
+}
+
+.join-info {
+  background-color: #FBCEB1;
+  border-radius: 5px;
+  padding: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem; 
+  
 }
 
 .signup-form {
@@ -30,7 +52,7 @@ main {
 
 h2 {
   color: #333;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   font-size: 1.5em;
   font-weight: bold;
 }
