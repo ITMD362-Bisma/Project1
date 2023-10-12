@@ -69,6 +69,8 @@ main {
 .signup-form .form-heading {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
+  text-align: left;
+   margin-left: 0;
 }
 
 .signup-form {
