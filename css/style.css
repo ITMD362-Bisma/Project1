@@ -12,6 +12,7 @@ h2{
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #E50914;
+	font-size: 1.5rem;
 }
 
 header {
@@ -71,11 +72,15 @@ main {
 	 font-size: 1.5rem;
 }
 
-.signup-form input#interest {
-    width: 75%;
-    height: 150px;
-    padding: 2rem;
-    resize: none;
+.signup-form label[for="interest"] {
+  width: 75%; 
+  display: block;
+  margin-bottom: 0.5rem; 
+}
+
+.signup-form textarea#interest {
+  width: 75%; 
+  padding: 1rem; 
 }
 
 .signup-form select {
