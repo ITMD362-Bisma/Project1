@@ -22,7 +22,8 @@ header {
   color: #cbb26a;
   text-align: center;
   font-size: 2.0rem;
-  padding: 3rem;
+   align-items: center; /* Vertically align the image and text */
+  padding: 1rem 3rem; /* Adjust the padding to your preference */
   position: relative;
   line-height: 1.6;
 }
@@ -39,12 +40,9 @@ main {
 }
 
 .header-image {
-  width: 100px;
+  width: 150px;
   height: auto;
-  position: absolute;
-  top: 50%;
-  left: 400px;
-  transform: translateY(-50%);
+   margin-top: 3rem;
 }
 
 .two-column-layout {
@@ -165,5 +163,51 @@ footer {
 @media screen and (min-width: 1024px) {
   main {
     max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 1.2rem; /* Adjust the font size for better readability on small screens */
+  }
+
+  header {
+    padding: 1rem; /* Reduce the header padding for smaller screens */
+    flex-direction: column; /* Stack the image and text vertically on small screens */
+    text-align: center; /* Center the text below the image */
+  }
+
+  header h1 {
+    margin-left: 0; /* Remove the margin for the text on small screens */
+  }
+
+  .header-image {
+    left: 10%; /* Center the image horizontally */
+    transform: translateX(-50%);
+  }
+
+  .two-column-layout {
+    flex-direction: column; /* Stack sections vertically on small screens */
+    margin: 0; /* Remove negative margin */
+  }
+
+  .website-info,
+  .join-info,
+  .signup-form {
+    padding: 2rem; /* Reduce section padding for smaller screens */
+  }
+
+  .signup-form {
+    font-size: 1rem; /* Reduce the form font size for smaller screens */
+  }
+
+  .signup-form label[for="interest"],
+  .signup-form textarea#interest,
+  .signup-form select[name="option"] {
+    width: 70%; /* Make form elements full width on small screens */
+  }
+
+  .signup-form select {
+    font-size: 1rem; /* Reduce the select font size for smaller screens */
   }
 }
