@@ -80,20 +80,25 @@ main {
 .signup-form label[for="interest"] {
   width: 75%;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .signup-form textarea#interest {
   width: 75%;
   padding: 1rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
+
+.signup-form select[name="option"] {
+  width: 75%;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem; /* Add margin after the select */
 }
 
 .signup-form select {
-  margin-bottom: 1rem;
   font-size: 1.5rem;
+  
 }
 
 .website-info p,
