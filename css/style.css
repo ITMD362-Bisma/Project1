@@ -1,155 +1,156 @@
 body, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #fff;
 }
 
-h2{
-	 font-weight: bold;
-	  color: #cbb26a;
+h2 {
+  font-weight: bold;
+  color: #cbb26a;
 }
-	
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #E50914;
-	font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E50914;
+  font-size: 1.5rem;
 }
 
 header {
-    background-color: #221F1F;
-    font-weight: bold;
-    color: #cbb26a;
-    text-align: center;
-    font-size: 2.0rem;
-    padding: 3rem;
-    position: relative;
-	line-height: 1.6;
+  background-color: #221F1F;
+  font-weight: bold;
+  color: #cbb26a;
+  text-align: center;
+  font-size: 2.0rem;
+  padding: 3rem;
+  position: relative;
+  line-height: 1.6;
 }
 
 p {
-    font-size: 1.2rem;
-    padding: 1rem;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
 main {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .header-image {
-    width: 100px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 500px;
-    transform: translateY(-50%);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 500px;
+  transform: translateY(-50%);
 }
 
 .two-column-layout {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2rem;
-    margin: 0 -20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 0 -20rem;
 }
 
 .website-info,
 .join-info,
 .signup-form {
-    background-color: #221F1F;
-    color: #fff;
-    border-radius: 5px;
-    padding: 3rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 1rem;
-    flex: 13;
+  background-color: #221F1F;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+  flex: 1;
 }
 
 .signup-form .form-heading {
-  margin-bottom: 1.5rem; /* Add margin to create space after the heading */
-  font-size: 1.5rem; /* Adjust font size if needed */
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
 }
+
 .signup-form {
-    padding: 5rem;
-	 font-size: 1.5rem;
+  padding: 5rem;
+  font-size: 1.5rem;
 }
 
 .signup-form label[for="interest"] {
-  width: 75%; 
+  width: 75%;
   display: block;
-  margin-bottom: 0.5rem; 
+  margin-bottom: 0.5rem;
 }
 
 .signup-form textarea#interest {
-  width: 75%; 
-  padding: 1rem; 
+  width: 75%;
+  padding: 1rem;
 }
 
 .signup-form select {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .website-info p,
 .join-info p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 h2 {
-    margin-bottom: 2rem;
-    font-size: 1.5em;
-    font-weight: bold;
+  margin-bottom: 2rem;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 label {
-    display: block;
-    margin-bottom: 0.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 input {
-    width: 75%;
-    padding: 0.5rem;
-    margin-bottom: 2rem;
+  width: 75%;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 button.center-button {
-    background-color: #fff;
-    color: #221F1F;
-    border: none;
-	font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    padding: 1.5rem 2.5rem;
-    font-size: 1.5em;
-    cursor: pointer;
-    margin: 1rem auto 0;
-    display: block;
+  background-color: #fff;
+  color: #221F1F;
+  border: none;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  padding: 1.5rem 2.5rem;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 1rem auto 0;
+  display: block;
 }
 
 button.center-button:hover {
-    background-color: #cbb26a;
+  background-color: #cbb26a;
 }
 
 footer {
-    text-align: center;
-    padding: 2rem;
-    background-color: #221F1F;
-    color: #fff;
-    font-size: 1rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: #221F1F;
+  color: #fff;
+  font-size: 1rem;
 }
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
-    main {
-        padding: 4rem;
-    }
-    .signup-form {
-        padding: 3rem;
-    }
+  main {
+    padding: 4rem;
+  }
+  .signup-form {
+    padding: 3rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    main {
-        max-width: 800px;
-    }
+  main {
+    max-width: 800px;
+  }
 }
