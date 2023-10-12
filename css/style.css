@@ -86,6 +86,9 @@ main {
 .signup-form textarea#interest {
   width: 75%;
   padding: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
 }
 
 .signup-form select {
@@ -97,6 +100,10 @@ main {
 .join-info p,
 .signup-form p{
   line-height: 1.6;
+}
+
+.signup-form label {
+  margin-bottom: 1rem;
 }
 
 h2 {
