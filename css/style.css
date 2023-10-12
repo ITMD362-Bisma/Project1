@@ -13,6 +13,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #E50914;
   font-size: 1.5rem;
+
 }
 
 header {
@@ -106,7 +107,6 @@ h2 {
 
 label {
   display: block;
-  margin-bottom: 0.5rem;
 }
 
 input {
@@ -121,7 +121,7 @@ button.center-button {
   border: none;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
-  padding: 1.5rem 2.5rem;
+  padding: 1.2rem 2.3rem;
   font-size: 1.5em;
   cursor: pointer;
   margin: 1rem auto 0;
