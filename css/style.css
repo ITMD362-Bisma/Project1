@@ -42,7 +42,7 @@ main {
   height: auto;
   position: absolute;
   top: 50%;
-  left: 500px;
+  left: 400px;
   transform: translateY(-50%);
 }
 
