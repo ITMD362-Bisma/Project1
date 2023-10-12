@@ -93,7 +93,8 @@ main {
 }
 
 .website-info p,
-.join-info p {
+.join-info p,
+.signup-form p{
   line-height: 1.6;
 }
 
