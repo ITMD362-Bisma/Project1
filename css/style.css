@@ -23,6 +23,7 @@ header {
     font-size: 2.0rem;
     padding: 3rem;
     position: relative;
+	line-height: 1.6;
 }
 
 p {
@@ -65,10 +66,12 @@ main {
     flex: 13;
 }
 
+.signup-form .form-heading {
+  margin-bottom: 1.5rem; /* Add margin to create space after the heading */
+  font-size: 1.5rem; /* Adjust font size if needed */
+}
 .signup-form {
     padding: 5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
 	 font-size: 1.5rem;
 }
 
