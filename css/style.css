@@ -40,7 +40,7 @@ main {
 }
 
 .header-image {
-  width: 150px;
+  width: 100px;
   height: auto;
    margin-top: 3rem;
 }
@@ -170,6 +170,12 @@ footer {
   body {
     font-size: 1.2rem; /* Adjust the font size for better readability on small screens */
   }
+  
+  @media screen and (max-width: 767px) {
+  input {
+    width: 90%;
+  }
+}
 
   header {
     padding: 1rem; /* Reduce the header padding for smaller screens */

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/meyers_and_normalize-form_reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <script src="javascript/site.js" async></script>
 </head>
 <body>
   <header>
@@ -32,7 +33,7 @@
     <section class="signup-form">
       <h2>Sign Up</h2>
       <p class="form-heading">Enter your information to get updates about our organization</p>
-      <form id="signupForm">
+      <form id="signupForm" method="get" action="#null" autocomplete="on">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required placeholder="John Doe">
         <label for="email">Email:</label>
@@ -45,7 +46,7 @@
         </select>
         <label for="interest">Questions and Concerns:</label>
         <textarea id="interest" name="interest" required placeholder="Please input any questions or concerns otherwise type in N/A"></textarea>
-        <button type="submit" class="center-button">Join</button>
+        <button type="submit" class="center-button">Join Now</button>
       </form>
     </section>
   </main>
