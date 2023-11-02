@@ -6,51 +6,44 @@ body, h2, h3, p, ul, li {
 h1 {
   font-weight: bold;
   color: #cbb26a;
-  font-family: 'Lobster'; /* Use the Lobster font for h2 elements */
-   font-size: 3rem;
+  font-family: 'Lobster';
+  font-size: 3rem;
 }
 h2 {
   font-weight: bold;
   color: #cbb26a;
-  font-family: 'Lobster'; /* Use the Lobster font for h2 elements */
+  font-family: 'Lobster';
 }
-
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #E50914;
   font-size: 1.5rem;
-
 }
-
 header {
   background-color: #221F1F;
   font-weight: bold;
   color: #cbb26a;
   text-align: center;
   font-size: 2.0rem;
-   align-items: center; /* Vertically align the image and text */
-  padding: 1rem 3rem; /* Adjust the padding to your preference */
+  align-items: center;
+  padding: 1rem 3rem;
   position: relative;
   line-height: 1.6;
 }
-
 p {
   font-size: 1.2rem;
   padding: 1rem;
 }
-
 main {
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
 }
-
 .header-image {
   width: 100px;
   height: auto;
-   margin-top: 3rem;
+  margin-top: 3rem;
 }
-
 .two-column-layout {
   display: flex;
   flex-wrap: wrap;
@@ -58,10 +51,7 @@ main {
   gap: 2rem;
   margin: 0 -20rem;
 }
-
-.website-info,
-.join-info,
-.signup-form {
+.website-info, .join-info, .signup-form {
   background-color: #221F1F;
   color: #fff;
   border-radius: 15px;
@@ -70,67 +60,52 @@ main {
   margin-bottom: 1rem;
   flex: 1;
 }
-
 .signup-form .form-heading {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
 }
-
 .signup-form {
   padding: 5rem;
   font-size: 1.5rem;
 }
-
 .signup-form label[for="interest"] {
   width: 75%;
   display: block;
   margin-bottom: 1rem;
 }
-
 .signup-form textarea#interest {
   width: 75%;
   padding: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-
 .signup-form select[name="option"] {
   width: 75%;
   padding: 0.5rem;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
-
 .signup-form select {
   font-size: 1.5rem;
-  
 }
-
-.website-info p,
-.join-info p,
-.signup-form p{
+.website-info p, .join-info p, .signup-form p {
   line-height: 1.6;
 }
-
 .signup-form label {
   margin-bottom: 1rem;
 }
-
 h2 {
   margin-bottom: 2rem;
   font-size: 1.5em;
   font-weight: bold;
 }
-
 label {
   display: block;
 }
-
 input {
   width: 75%;
   padding: 0.5rem;
   margin-bottom: 2rem;
 }
-
 button.center-button {
   background-color: #fff;
   color: #221F1F;
@@ -143,11 +118,9 @@ button.center-button {
   margin: 1rem auto 0;
   display: block;
 }
-
 button.center-button:hover {
   background-color: #cbb26a;
 }
-
 footer {
   text-align: center;
   padding: 2rem;
@@ -155,8 +128,6 @@ footer {
   color: #fff;
   font-size: 1rem;
 }
-
-/* Media Queries */
 @media screen and (min-width: 768px) {
   main {
     padding: 4rem;
@@ -165,61 +136,44 @@ footer {
     padding: 3rem;
   }
 }
-
 @media screen and (min-width: 1024px) {
   main {
     max-width: 800px;
   }
 }
-
 @media screen and (max-width: 767px) {
   body {
-    font-size: 1.2rem; /* Adjust the font size for better readability on small screens */
-  }
-  
-  @media screen and (max-width: 767px) {
+    font-size: 1.2rem;
   input {
     width: 90%;
   }
 }
-
-  header {
-    padding: 1rem; /* Reduce the header padding for smaller screens */
-    flex-direction: column; /* Stack the image and text vertically on small screens */
-    text-align: center; /* Center the text below the image */
-  }
-
-  header h1 {
-    margin-left: 0; /* Remove the margin for the text on small screens */
-  }
-
-  .header-image {
-    left: 10%; /* Center the image horizontally */
-    transform: translateX(-50%);
-  }
-
-  .two-column-layout {
-    flex-direction: column; /* Stack sections vertically on small screens */
-    margin: 0; /* Remove negative margin */
-  }
-
-  .website-info,
-  .join-info,
-  .signup-form {
-    padding: 2rem; /* Reduce section padding for smaller screens */
-  }
-
-  .signup-form {
-    font-size: 1rem; /* Reduce the form font size for smaller screens */
-  }
-
-  .signup-form label[for="interest"],
-  .signup-form textarea#interest,
-  .signup-form select[name="option"] {
-    width: 70%; /* Make form elements full width on small screens */
-  }
-
-  .signup-form select {
-    font-size: 1rem; /* Reduce the select font size for smaller screens */
-  }
+header {
+  padding: 1rem;
+  flex-direction: column;
+  text-align: center;
+}
+header h1 {
+  margin-left: 0;
+}
+.header-image {
+  left: 10%;
+  transform: translateX(-50%);
+}
+.two-column-layout {
+  flex-direction: column;
+  margin: 0;
+}
+.website-info, .join-info, .signup-form {
+  padding: 2rem;
+}
+.signup-form {
+  font-size: 1rem;
+}
+.signup-form label[for="interest"], .signup-form textarea#interest, .signup-form select[name="option"] {
+  width: 70%;
+}
+.signup-form select {
+  font-size: 1rem;
+}
 }
