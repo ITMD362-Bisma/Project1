@@ -3,10 +3,16 @@ body, h2, h3, p, ul, li {
   padding: 0;
   color: #fff;
 }
-
+h1 {
+  font-weight: bold;
+  color: #cbb26a;
+  font-family: 'Lobster'; /* Use the Lobster font for h2 elements */
+   font-size: 3rem;
+}
 h2 {
   font-weight: bold;
   color: #cbb26a;
+  font-family: 'Lobster'; /* Use the Lobster font for h2 elements */
 }
 
 body {
